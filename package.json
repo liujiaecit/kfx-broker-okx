@@ -1,0 +1,183 @@
+{
+  "name": "@kungfu-trader/kfx-broker-okx",
+  "author": {
+    "name": "kungfu-trader",
+    "email": "info@kungfu.link"
+  },
+  "version": "3.0.0-alpha.12",
+  "description": "Kungfu Extension - okx",
+  "license": "UNLICENSED",
+  "main": "package.json",
+  "repository": {
+    "url": "https://github.com/liujiaecit/kfx-broker-okx.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "binary": {
+    "module_name": "kfx-broker-okx",
+    "module_path": "dist/okx",
+    "remote_path": "{module_name}/v{major}/v{version}",
+    "package_name": "{module_name}-v{version}-{platform}-{arch}-{configuration}.tar.gz",
+    "host": "https://prebuilt.libkungfu.cc"
+  },
+  "scripts": {
+    "install": "node -e \"require('@kungfu-trader/kungfu-core').prebuilt('install')\"",
+    "build": "kfs extension build",
+    "clean": "kfs extension clean",
+    "format": "node ./node_modules/@kungfu-trader/kungfu-core/.gyp/run-format-cpp.js src",
+    "dev": "kfs craft dev",
+    "package": "kfs project package"
+  },
+  "dependencies": {
+    "@kungfu-trader/kungfu-app": "~3.0.0 || ~3.0.4-0",
+    "@kungfu-trader/kungfu-core": "~3.0.0 || ~3.0.4-0",
+    "@kungfu-trader/kungfu-js-api": "~3.0.0 || ~3.0.4-0",
+    "@kungfu-trader/kungfu-toolchain": "~3.0.0 || ~3.0.4-0"
+  },
+  "devDependencies": {
+    "@kungfu-trader/kungfu-cli": "~3.0.0 || ~3.0.4-0",
+    "@kungfu-trader/kungfu-sdk": "~3.0.0 || ~3.0.4-0",
+    "inquirer": "^8.2.0"
+  },
+  "resolutions": {
+    "vue": "~3.2.0",
+    "pinia": "~2.0.0",
+    "@kungfu-trader/kungfu-core": "~3.0.0 || ~3.0.4-0",
+    "@kungfu-trader/kungfu-cli": "~3.0.0 || ~3.0.4-0",
+    "@kungfu-trader/kungfu-sdk": "~3.0.0 || ~3.0.4-0",
+    "@kungfu-trader/kungfu-app": "~3.0.0 || ~3.0.4-0",
+    "@kungfu-trader/kungfu-js-api": "~3.0.0 || ~3.0.4-0",
+    "@kungfu-trader/kungfu-toolchain": "~3.0.0 || ~3.0.4-0"
+  },
+  "kungfuDependencies": {
+    "okx": "v1.1.0"
+  },
+  "kungfuBuild": {
+    "cpp": {
+      "target": "bind/python",
+      "links": {
+        "windows": [
+          "kfwebsocket",
+          "libcurl",
+          "libcrypto",
+          "libssh2",
+          "libssl",
+          "libeay32",
+          "ssleay32"
+        ],
+        "linux": [
+          "kfwebsocket",
+          "crypto",
+          "ssl",
+          "curl",
+          "z"
+        ]
+      }
+    }
+  },
+  "kungfuConfig": {
+    "key": "okx",
+    "name": "OKX",
+    "language": {
+      "zh-CN": {
+        "account_id": "账号",
+        "account_id_msg": "请填写账号",
+        "password": "password",
+        "password_msg": "请填写密码",
+        "api_key": "api_key",
+        "api_key_msg": "请填写apikey",
+        "secret_key": "密钥",
+        "secret_key_msg": "请填写密钥",
+        "sync_external_order": "是否同步外部订单",
+        "sync_external_order_msg": "是否同步外部订单",
+        "sync_external_order_tip": "若开启则同步用户在其他交易软件的订单"
+      },
+      "en-US": {
+        "account_id": "Account",
+        "account_id_msg": "Please entry account_id",
+        "password": "password",
+        "password_msg": "Please entry password",
+        "api_key": "apikey",
+        "api_key_msg": "Please entry api key",
+        "secret_key": "secretkey",
+        "secret_key_msg": "Please entry secret key",
+        "sync_external_order": "sync external order",
+        "sync_external_order_msg": "Whether open sync external order",
+        "sync_external_order_tip": ""
+      }
+    },
+    "config": {
+      "td": {
+        "type": [
+          "crypto"
+        ],
+        "settings": [
+          {
+            "key": "account_id",
+            "name": "okx.account_id",
+            "type": "str",
+            "errMsg": "okx.account_id_msg",
+            "required": true,
+            "default": "mars",
+            "primary": true
+          },
+          {
+            "key": "password",
+            "name": "okx.password",
+            "type": "password",
+            "errMsg": "okx.password_msg",
+            "required": true,
+            "default": "Qwer@1234",
+            "validator": [
+              "blankValidator"
+            ]
+          },
+          {
+            "key": "api_key",
+            "name": "okx.api_key",
+            "type": "str",
+            "errMsg": "okx.api_key_msg",
+            "default": "1f037328-3a07-497e-94a6-251f27072ac8",
+            "validator": [
+              "blankValidator"
+            ],
+            "required": true
+          },
+          {
+            "key": "secret_key",
+            "name": "okx.secret_key",
+            "type": "str",
+            "errMsg": "okx.secret_key_msg",
+            "default": "9329BCADBF37F4AE08B9BBE8D2C18122",
+            "validator": [
+              "blankValidator"
+            ],
+            "required": true
+          },
+          {
+            "key": "sync_external_order",
+            "name": "okx.sync_external_order",
+            "type": "bool",
+            "errMsg": "okx.sync_external_order_msg",
+            "required": false,
+            "default": false,
+            "tip": "okx.sync_external_order_tip"
+          },
+          {
+            "key": "virtual_trader",
+            "name": "模拟交易",
+            "type": "bool",
+            "required": false,
+            "default": false
+          }
+        ]
+      },
+      "md": {
+        "type": [
+          "crypto"
+        ]
+      }
+    }
+  }
+}
