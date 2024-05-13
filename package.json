@@ -4,7 +4,7 @@
     "name": "kungfu-trader",
     "email": "info@kungfu.link"
   },
-  "version": "",
+  "version": "3.0.0=alpha.3",
   "description": "Kungfu Extension - okx",
   "license": "UNLICENSED",
   "main": "package.json",
