@@ -190,7 +190,12 @@ https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?
 
 ​     2）运行策略
 ![](https://markdown.liuchengtu.com/work/uploads/upload_10fa0a32982b7297c73b8026a1b83881.png)
-​     3）查看策略运行日志
+
+​     3）查看账户持仓信息
+
+![](https://markdown.liuchengtu.com/work/uploads/upload_f4a0d76b0c297e78d3a0fea546373df1.png)
+
+​     4）查看策略运行日志
 ![](https://markdown.liuchengtu.com/work/uploads/upload_f95592e9a4917b3f24ed46c1f2d96b6f.png)
 
   
