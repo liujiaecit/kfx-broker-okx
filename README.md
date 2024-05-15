@@ -104,14 +104,19 @@ https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?
 ## 二. 编译okx插件
 ### 1.下载kungfu-trader安装包
 ​     1) . [下载Windows包](%3Cspan%3E%3Cdiv%3Ehttps://www.kungfu-trader.com/%3C/div%3E%3C/span%3E)
+
 ​     2) . 安装kungfu-trader，例如：D:\Kungfu-trader
 ### 2.下载kfx-broker-okx代码
 ​     从github中把代码下载到本地，例如：D:\kfx-broker-okx
 ### 3. 编译kfx-broker-okx
 ​     操作如下：
+
 ​    1）启动vs2022命令行界面
+
 ​    2）进入kfx-broker-okx代码目录
+
 ​    3）输入编译命令行：D:\Kungfu-trader\resources\kfc\kfs.exe strategy build
+
 ​    4）执行编译，成功编译后会在dist目录中生成okx文件夹
     
   ![](https://markdown.liuchengtu.com/work/uploads/upload_21da937e0e8f444260897394bb502d8d.png)
@@ -126,7 +131,6 @@ https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?
 ## 四. 在kungfu客户端中添加okx插件
 ​     1) .添加交易柜台
 ![](https://markdown.liuchengtu.com/work/uploads/upload_a80de2031a96e62b0545bc1127a05d55.png)
-
 ​     2) .添加okx行情柜台
 ![](https://markdown.liuchengtu.com/work/uploads/upload_486a618c14f4c42ca865b188023f5a4a.png)
 ​     3) .运行柜台
