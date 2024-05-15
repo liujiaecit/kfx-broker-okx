@@ -11,9 +11,9 @@
 2. 运行功夫客户端，进入后点击左上角菜单栏“文件-打开功夫安装目录”
 
 3. 复制本链接的okx插件包，即文件夹“okx”，进入{功夫安装目录} --> app --> kungfu-extensions 。粘贴okx文件夹到本路径
+![](https://markdown.liuchengtu.com/work/uploads/upload_54fb5a2d6053cc5855cdde6ba4a52117.png)
 
 4. 粘贴okx文件夹后，请重启客户端
-![](https://markdown.liuchengtu.com/work/uploads/upload_54fb5a2d6053cc5855cdde6ba4a52117.png)
 
 
 # 使用

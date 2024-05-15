@@ -4,7 +4,7 @@
     "name": "kungfu-trader",
     "email": "info@kungfu.link"
   },
-  "version": "3.0.0=alpha.3",
+  "version": "3.0.0-alpha.3",
   "description": "Kungfu Extension - okx",
   "license": "UNLICENSED",
   "main": "package.json",
@@ -30,25 +30,22 @@
     "package": "kfs project package"
   },
   "dependencies": {
-    "@kungfu-trader/kungfu-app": "~3.0.0 || ~3.0.4-0",
-    "@kungfu-trader/kungfu-core": "~3.0.0 || ~3.0.4-0",
-    "@kungfu-trader/kungfu-js-api": "~3.0.0 || ~3.0.4-0",
-    "@kungfu-trader/kungfu-toolchain": "~3.0.0 || ~3.0.4-0"
+    "@kungfu-trader/kungfu-app": "=3.0.4-alpha.7",
+    "@kungfu-trader/kungfu-core": "=3.0.4-alpha.7",
+    "@kungfu-trader/kungfu-js-api": "=3.0.4-alpha.7",
+    "@kungfu-trader/kungfu-toolchain": "=3.0.4-alpha.7"
   },
   "devDependencies": {
-    "@kungfu-trader/kungfu-cli": "~3.0.0 || ~3.0.4-0",
-    "@kungfu-trader/kungfu-sdk": "~3.0.0 || ~3.0.4-0",
-    "inquirer": "^8.2.0"
+    "@kungfu-trader/kungfu-cli": "=3.0.4-alpha.7",
+    "@kungfu-trader/kungfu-sdk": "=3.0.4-alpha.7"
   },
   "resolutions": {
-    "vue": "~3.2.0",
-    "pinia": "~2.0.0",
-    "@kungfu-trader/kungfu-core": "~3.0.0 || ~3.0.4-0",
-    "@kungfu-trader/kungfu-cli": "~3.0.0 || ~3.0.4-0",
-    "@kungfu-trader/kungfu-sdk": "~3.0.0 || ~3.0.4-0",
-    "@kungfu-trader/kungfu-app": "~3.0.0 || ~3.0.4-0",
-    "@kungfu-trader/kungfu-js-api": "~3.0.0 || ~3.0.4-0",
-    "@kungfu-trader/kungfu-toolchain": "~3.0.0 || ~3.0.4-0"
+    "@kungfu-trader/kungfu-core": "=3.0.4-alpha.7",
+    "@kungfu-trader/kungfu-cli": "=3.0.4-alpha.7",
+    "@kungfu-trader/kungfu-sdk": "=3.0.4-alpha.7",
+    "@kungfu-trader/kungfu-app": "=3.0.4-alpha.7",
+    "@kungfu-trader/kungfu-js-api": "=3.0.4-alpha.7",
+    "@kungfu-trader/kungfu-toolchain": "=3.0.4-alpha.7"
   },
   "kungfuDependencies": {
     "okx": "v1.1.0"
@@ -70,8 +67,7 @@
           "kfwebsocket",
           "crypto",
           "ssl",
-          "curl",
-          "z"
+          "curl"
         ]
       }
     }
