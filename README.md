@@ -187,6 +187,7 @@ https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?
 ​     1）添加策略
 ![](https://markdown.liuchengtu.com/work/uploads/upload_4257c774b4551e0af81444d189705e4f.png)
 ![](https://markdown.liuchengtu.com/work/uploads/upload_67dff0f9b26fe6faaa9517b8436a80de.png)
+
 ​     2）运行策略
 ![](https://markdown.liuchengtu.com/work/uploads/upload_10fa0a32982b7297c73b8026a1b83881.png)
 ​     3）查看策略运行日志
