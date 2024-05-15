@@ -1,6 +1,0 @@
-[submodule "api/v1.1_20210723/ThirdParty/curl"]
-	path = api/v1.1_20210723/ThirdParty/curl
-	url = https://github.com/curl/curl.git
-[submodule "api/v1.1_20210723/ThirdParty/jsoncpp"]
-	path = api/v1.1_20210723/ThirdParty/jsoncpp
-	url = https://github.com/open-source-parsers/jsoncpp.git
