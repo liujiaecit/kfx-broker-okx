@@ -96,7 +96,7 @@ https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?
 ![开始菜单](https://raw.githubusercontent.com/Pythonzhai/picture_24/main/img/%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95.png)
 ​     2) . 向下查找 visual studio 2022
 ![vs2022](https://raw.githubusercontent.com/Pythonzhai/picture_24/main/img/vs2022.png)
-​    
+
 ​     3) . 选择 x64 Native Tools Command Prompt VS 2022
 ![x64native](https://raw.githubusercontent.com/Pythonzhai/picture_24/main/img/x64native.png)
   
@@ -131,6 +131,7 @@ https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?
 ## 四. 在kungfu客户端中添加okx插件
 ​     1) .添加交易柜台
 ![](https://markdown.liuchengtu.com/work/uploads/upload_a80de2031a96e62b0545bc1127a05d55.png)
+
 ​     2) .添加okx行情柜台
 ![](https://markdown.liuchengtu.com/work/uploads/upload_486a618c14f4c42ca865b188023f5a4a.png)
 ​     3) .运行柜台
