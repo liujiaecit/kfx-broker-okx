@@ -90,6 +90,10 @@ href="https://www.okx.com/zh-hans/okx-api" title="超链接title">申请欧易AP
   
 
 4. 现货资产可通过“持仓”面板查看。
+![](https://markdown.liuchengtu.com/work/uploads/upload_a60cbe2c04d52543b87823bfac94b0e3.png)
+    对应okx的web页面的资产tab：
+    ![](https://markdown.liuchengtu.com/work/uploads/upload_7362804669c513aad14839396b025be2.png)
+
   
 
 5. 通过策略订阅行情时，柜台Exchange如何填写？
@@ -152,11 +156,12 @@ https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?
 ​    2）进入kfx-broker-okx代码目录
   
 
-​    3）输入编译命令行：D:\Kungfu-trader\resources\kfc\kfs.exe strategy build
+​    3）输入编译命令行：D:\Kungfu-trader\resources\kfc\kfs.exe extension build
   
 
 ​    4）执行编译，成功编译后会在dist目录中生成okx文件夹
-![](https://markdown.liuchengtu.com/work/uploads/upload_21da937e0e8f444260897394bb502d8d.png)
+![](https://markdown.liuchengtu.com/work/uploads/upload_7ff890019440588c8f677bc78adf8b9d.png)
+
 ## 三. 拷贝编译成功的okx插件到kungfu-trader中
 ​     操作如下：
 ​     1）从dist目录中把okx文件拷贝到 D:\Kungfu-trader\resources\app\kungfu-extensions 文件夹中
@@ -178,6 +183,14 @@ https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?
 ​     3) .运行柜台
 ![](https://markdown.liuchengtu.com/work/uploads/upload_f9a1625d6eba1ca68851fcd872071d29.png)
   
+## 四. 策略demo用例
+​     1）添加策略
+![](https://markdown.liuchengtu.com/work/uploads/upload_4257c774b4551e0af81444d189705e4f.png)
+![](https://markdown.liuchengtu.com/work/uploads/upload_67dff0f9b26fe6faaa9517b8436a80de.png)
+​     2）运行策略
+![](https://markdown.liuchengtu.com/work/uploads/upload_10fa0a32982b7297c73b8026a1b83881.png)
+​     3）查看策略运行日志
+![](https://markdown.liuchengtu.com/work/uploads/upload_f95592e9a4917b3f24ed46c1f2d96b6f.png)
 
   
 
