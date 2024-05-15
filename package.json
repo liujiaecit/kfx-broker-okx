@@ -1,52 +1,7 @@
 {
-  "name": "@kungfu-trader/kfx-broker-okx",
-  "author": {
-    "name": "kungfu-trader",
-    "email": "info@kungfu.link"
-  },
-  "version": "3.0.0-alpha.3",
+  "version": "1.0.0-alpha.0",
   "description": "Kungfu Extension - okx",
-  "license": "UNLICENSED",
   "main": "package.json",
-  "repository": {
-    "url": "https://github.com/liujiaecit/kfx-broker-okx.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "binary": {
-    "module_name": "kfx-broker-okx",
-    "module_path": "dist/okx",
-    "remote_path": "{module_name}/v{major}/v{version}",
-    "package_name": "{module_name}-v{version}-{platform}-{arch}-{configuration}.tar.gz",
-    "host": "https://prebuilt.libkungfu.cc"
-  },
-  "scripts": {
-    "install": "node -e \"require('@kungfu-trader/kungfu-core').prebuilt('install')\"",
-    "build": "kfs extension build",
-    "clean": "kfs extension clean",
-    "format": "node ./node_modules/@kungfu-trader/kungfu-core/.gyp/run-format-cpp.js src",
-    "dev": "kfs craft dev",
-    "package": "kfs project package"
-  },
-  "dependencies": {
-    "@kungfu-trader/kungfu-app": "=3.0.4-alpha.7",
-    "@kungfu-trader/kungfu-core": "=3.0.4-alpha.7",
-    "@kungfu-trader/kungfu-js-api": "=3.0.4-alpha.7",
-    "@kungfu-trader/kungfu-toolchain": "=3.0.4-alpha.7"
-  },
-  "devDependencies": {
-    "@kungfu-trader/kungfu-cli": "=3.0.4-alpha.7",
-    "@kungfu-trader/kungfu-sdk": "=3.0.4-alpha.7"
-  },
-  "resolutions": {
-    "@kungfu-trader/kungfu-core": "=3.0.4-alpha.7",
-    "@kungfu-trader/kungfu-cli": "=3.0.4-alpha.7",
-    "@kungfu-trader/kungfu-sdk": "=3.0.4-alpha.7",
-    "@kungfu-trader/kungfu-app": "=3.0.4-alpha.7",
-    "@kungfu-trader/kungfu-js-api": "=3.0.4-alpha.7",
-    "@kungfu-trader/kungfu-toolchain": "=3.0.4-alpha.7"
-  },
   "kungfuDependencies": {
     "okx": "v1.1.0"
   },

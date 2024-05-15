@@ -24,7 +24,6 @@ build-*/
 
 # NPM related
 node_modules/
-__kungfulibs__/
 dist/
 .clang-format
 .project
